@@ -1,6 +1,8 @@
 module.exports = {
   mode: 'development',
-  entry: './index.js',
+  entry: {
+    'main': './index.js'
+  },
   // module: {
   //   rules: [{
   //     test: /\.scss$/,
@@ -17,8 +19,5 @@ module.exports = {
     new require('copy-webpack-plugin')([
       { from: './index.html' }
     ])
-  ],
-  watchOptions: {
-    poll: true
-  }
+  ]
 }

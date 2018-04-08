@@ -1,1 +1,1 @@
-console.log("Hello, docker.")
+document.write("Hello, docker.")
