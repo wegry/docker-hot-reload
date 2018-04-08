@@ -9,7 +9,7 @@ services:
       - 8080:8080
     volumes:
       - ./app:/bindmount:rw
-      # - node_modules:/src/node_modules
+      - node_modules:/src/node_modules
 
-# volumes:
-#   node_modules:
+volumes:
+  node_modules:
