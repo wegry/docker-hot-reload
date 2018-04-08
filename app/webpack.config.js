@@ -21,9 +21,5 @@ module.exports = {
     new require('copy-webpack-plugin')([
       { from: './index.html' }
     ])
-  ],
-  watchOptions: {
-    aggregateTimeout: 300,
-    poll: 1000
-  }
+  ]
 }
